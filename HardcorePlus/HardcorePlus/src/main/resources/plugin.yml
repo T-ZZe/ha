@@ -1,0 +1,22 @@
+name: HardcorePlus
+version: '${project.version}'
+main: fr.hardcore.HardcorePlugin
+api-version: '26.1'
+description: Hardcore - ban temporaire a la mort, sanctions et blacklist
+commands:
+  unban:
+    description: Debannir un joueur (ou tous les bans temporaires)
+    usage: /unban <pseudo|all>
+    permission: hardcore.admin
+  hardcore:
+    description: Ouvre le menu Hardcore
+    aliases: [hardcor]
+    usage: /hardcore
+    permission: hardcore.admin
+permissions:
+  hardcore.admin:
+    description: Acces aux commandes admin
+    default: op
+  hardcore.bypass:
+    description: Ne pas etre banni a la mort
+    default: false

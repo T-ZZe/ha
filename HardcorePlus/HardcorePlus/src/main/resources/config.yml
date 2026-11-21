@@ -1,0 +1,2 @@
+# Duree du ban a la mort (en heures). 120 = 5 jours. Modifiable en jeu via /hardcore
+ban-hours: 120
